@@ -2,48 +2,48 @@
     "includes": [
       {
         "file": "index.html",
-        "script": "node_modules/cronapp-pic/src/main/webapp/pic/css/pic.allplugins.css",
+        "script": "src/main/webapp/pic/css/pic.allplugins.css",
         "type": "style",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "node_modules/cronapp-pic/src/main/webapp/pic/css/pic.allcustoms.css",
+        "script": "src/main/webapp/pic/css/pic.allcustoms.css",
         "type": "style",
         "onTop": true
       },
 
       {
         "file": "index.html",
-        "script": "node_modules/cronapp-pic/src/main/webapp/pic/css/tema_basico.css",
+        "script": "src/main/webapp/pic/css/tema_basico.css",
         "type": "style",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "node_modules/cronapp-pic/src/main/webapp/pic/js/prism/prism.css",
+        "script": "src/main/webapp/pic/js/prism/prism.css",
         "type": "style",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "node_modules/cronapp-pic/src/main/webapp/pic/js/modernizr.js",
+        "script": "src/main/webapp/pic/js/modernizr.js",
         "type": "script",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "node_modules/cronapp-pic/src/main/webapp/pic/js/includerHeader.js",
+        "script": "src/main/webapp/pic/js/includerHeader.js",
         "type": "script"
       },
       {
         "file": "index.html",
-        "script": "node_modules/cronapp-pic/src/main/webapp/pic/js/prism/prism.js",
+        "script": "src/main/webapp/pic/js/prism/prism.js",
         "type": "script"
       },
       {
         "file": "index.html",
-        "script": "node_modules/cronapp-pic/src/main/webapp/pic/js/prism/prism-highlight.js",
+        "script": "src/main/webapp/pic/js/prism/prism-highlight.js",
         "type": "script"
       }
     ],
