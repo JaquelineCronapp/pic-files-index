@@ -15,4 +15,4 @@ async function copyFile(src, dest) {
     await fs.copyFile(src, dest);
 }
 console.log('Copying Files...')
-copyDir('./src/main/webapp', './../../../webapp');
+copyDir('src/main/webapp', '../../../webapp');

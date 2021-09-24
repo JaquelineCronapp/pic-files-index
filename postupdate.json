@@ -2,48 +2,57 @@
     "includes": [
       {
         "file": "index.html",
-        "script": "src/main/webapp/pic/css/pic.allplugins.css",
+        "script": "pic/css/pic.allplugins.css",
         "type": "style",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "src/main/webapp/pic/css/pic.allcustoms.css",
-        "type": "style",
-        "onTop": true
-      },
-
-      {
-        "file": "index.html",
-        "script": "src/main/webapp/pic/css/tema_basico.css",
+        "script": "pic/css/pic.allcustoms.css",
         "type": "style",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "src/main/webapp/pic/js/prism/prism.css",
+        "script": "pic/css/tema_basico.css",
         "type": "style",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "src/main/webapp/pic/js/modernizr.js",
+        "script": "pic/js/prism/prism.css",
+        "type": "style",
+        "onTop": true
+      },
+      {
+        "file": "index.html",
+        "script": "pic/js/modernizr.js",
         "type": "script",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "src/main/webapp/pic/js/includerHeader.js",
+        "script": "js/includerHeader.js",
         "type": "script"
       },
       {
         "file": "index.html",
-        "script": "src/main/webapp/pic/js/prism/prism.js",
+        "script": "pic/js/prism/prism.js",
         "type": "script"
       },
       {
         "file": "index.html",
-        "script": "src/main/webapp/pic/js/prism/prism-highlight.js",
+        "script": "pic/js/prism/prism-highlight.js",
+        "type": "script"
+      },
+      {
+        "file": "index.html",
+        "script": "js/pic.cronapi.js",
+        "type": "script"
+      },
+      {
+        "file": "index.html",
+        "script": "js/pic.js",
         "type": "script"
       }
     ],
