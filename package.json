@@ -1,11 +1,10 @@
 {
   "name": "cronapp-teste-jaque",
-  "version": "1.0.3",
+  "version": "1.0.11",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node postinstall.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

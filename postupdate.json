@@ -32,11 +32,6 @@
       },
       {
         "file": "index.html",
-        "script": "js/includerHeader.js",
-        "type": "script"
-      },
-      {
-        "file": "index.html",
         "script": "pic/js/prism/prism.js",
         "type": "script"
       },
@@ -47,12 +42,7 @@
       },
       {
         "file": "index.html",
-        "script": "js/pic.cronapi.js",
-        "type": "script"
-      },
-      {
-        "file": "index.html",
-        "script": "js/pic.js",
+        "script": "js/cronapi/pic.cronapi.js",
         "type": "script"
       }
     ],
