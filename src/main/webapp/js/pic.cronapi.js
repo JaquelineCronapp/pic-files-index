@@ -20,18 +20,16 @@
    * @param {ObjectType.STRING} statusModal {{statusModal}}
    * @param {ObjectType.STRING} sizeModal {{sizeModal}}
    * @param {ObjectType.OBJECT} listButton {{listButton}}
-   * 
    */
   this.cronapi.pic.modalPic = function (/** @type {ObjectType.OBJECT} @blockType ids_from_screen*/ idModal, /** @type {ObjectType.OBJECT} @blockType ids_from_screen*/ buttonAction, /** @type {ObjectType.STRING} */  nameModal, /** @type {ObjectType.STRING} @description {{typeModal}} @blockType util_dropdown @keys alert|confirm|form @values {{alert}}|{{confirm}}|{{form}} */ typeModal,/** @type {ObjectType.STRING} @description {{statusModal}} @blockType util_dropdown @keys default|success|info|warning|error @values {{default}}|{{success}}|{{info}}|{{warning}}|{{error}} */ statusModal,/** @type {ObjectType.STRING} @description {{sizeModal}} @blockType util_dropdown @keys sm|md|lg @values {{sm}}|{{md}}|{{lg}} */ sizeModal, listButton) {
 
-    if(!Array.isArray(listButton)){
+    if (!Array.isArray(listButton)) {
       listButton = [listButton];
     }
 
     let id = '#' + idModal;
     let idModalAction = 'modal_' + idModal;
     let contentModal = $(id);
-    contentModal = contentModal[0].children[0].children[0].outerHTML;
 
     let contentButton = $('<div class="buttons"></div>');
     let templateDyn = $(`<div id="${idModalAction}"></div>`);
@@ -63,26 +61,13 @@
           });
 
         } else {
-          jsonPicModal.dialog = typeModal;          
+          jsonPicModal.dialog = typeModal;
           jsonPicModal.labels = [];
 
           listButton.forEach(item => {
-            jsonPicModal.labels.push(item.name)
+            jsonPicModal.labels.push(item.name);
           });
         }
-
-
-        /**
-         * 
-         * default = preenchido
-         * secondary: outline
-         * 
-         * 
-         * <div class="buttons">
-         *      <button id="paraTeste" class="btn-secondary" data-pic-modal-config="noclose">Fecha</button>
-         *      <button class="btn-secondary" ng-click="[object Promise]">Abre modal</button>
-         * </div>
-         */
 
         break;
 
@@ -92,16 +77,16 @@
     }
 
     jsonPicModal = JSON.stringify(jsonPicModal);
-    templateDyn.attr("data-pic-modal", jsonPicModal)
-    templateDyn.append(contentModal)
+    templateDyn.attr("data-pic-modal", jsonPicModal);
+    templateDyn.append(contentModal);
 
 
     let idButton = "#" + buttonAction;
+    idButton = idButton + " button"
     $(idButton).attr("data-toggle", "modal");
     $(idButton).attr("data-target", "#" + idModalAction);
 
-    $(id).empty();
-    $(id).append(templateDyn);
+    $("body").append(templateDyn);
   };
 
   /**
@@ -123,29 +108,6 @@
       action: actionCallback,
       highlightButton: highlightButton
     }
-
-  };
-
-
-
-
-  /**
- * @type function
- * @name Fechar Acordeão
- * @description Fechar Acordeão
- * @multilayer false
- * @param {ObjectType.OBJECT} idAccordion {{idAccordion}}
- */
-  this.cronapi.pic.closeAccordion = function ( /** @type {ObjectType.OBJECT} @blockType ids_from_screen*/ idAccordion) {
-
-    var idTeste = "#" + idAccordion;
-    var teste = $(idTeste);
-    teste = teste[0].children[0].children;
-
-    teste.forEach(item => {
-      $(".panel .panel-heading").attr("aria-expanded", false);
-      $(".panel .panel-collapse.collapse").removeClass("in");
-    });
 
   };
 
