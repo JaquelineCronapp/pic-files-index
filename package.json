@@ -1,45 +1,19 @@
 {
-  "_from": "cronapp-teste-jaque@1.0.12",
-  "_id": "cronapp-teste-jaque@1.0.12",
-  "_inBundle": false,
-  "_integrity": "sha512-D8NLwHGmIrkSmvLYh24M7HK1++Faact8HWqhq29NxWGiunRFo4Ps5KdkPUPLJVSHiIzs2zYy4jaBEy7T3M5qBQ==",
-  "_location": "/cronapp-teste-jaque",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "cronapp-teste-jaque@1.0.12",
-    "name": "cronapp-teste-jaque",
-    "escapedName": "cronapp-teste-jaque",
-    "rawSpec": "1.0.12",
-    "saveSpec": null,
-    "fetchSpec": "1.0.12"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/cronapp-teste-jaque/-/cronapp-teste-jaque-1.0.12.tgz",
-  "_shasum": "8a8d947786e9630f85e52b7e7309ceeb2910a3db",
-  "_spec": "cronapp-teste-jaque@1.0.12",
-  "_where": "/home/cronapp/project/src/main/webapp",
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/JaquelineCronapp/cronapp-teste-pic/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "",
-  "homepage": "https://github.com/JaquelineCronapp/cronapp-teste-pic#readme",
-  "license": "ISC",
-  "main": "index.js",
   "name": "cronapp-teste-jaque",
+  "version": "1.0.12",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JaquelineCronapp/cronapp-teste-pic.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaquelineCronapp/cronapp-teste-pic/issues"
   },
-  "version": "1.0.12"
+  "homepage": "https://github.com/JaquelineCronapp/cronapp-teste-pic#readme"
 }
