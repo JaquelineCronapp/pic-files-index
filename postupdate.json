@@ -2,25 +2,25 @@
     "includes": [
       {
         "file": "index.html",
-        "script": "pic/css/pic.allplugins.css",
+        "script": "css/pic.allplugins.css",
         "type": "style",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "pic/css/pic.allcustoms.css",
+        "script": "css/pic.allcustoms.css",
         "type": "style",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "pic/css/tema_basico.css",
+        "script": "css/tema_basico.css",
         "type": "style",
         "onTop": true
       },
       {
         "file": "index.html",
-        "script": "pic/js/prism/prism.css",
+        "script": "js/prism/prism.css",
         "type": "style",
         "onTop": true
       },
@@ -32,17 +32,17 @@
       },
       {
         "file": "index.html",
-        "script": "pic/js/prism/prism.js",
+        "script": "js/prism/prism.js",
         "type": "script"
       },
       {
         "file": "index.html",
-        "script": "pic/js/prism/prism-highlight.js",
+        "script": "js/prism/prism-highlight.js",
         "type": "script"
       },
       {
         "file": "index.html",
-        "script": "js/cronapi/pic.cronapi.js",
+        "script": "js/pic.cronapi.js",
         "type": "script"
       }
     ],
